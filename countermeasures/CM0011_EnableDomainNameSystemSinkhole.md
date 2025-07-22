@@ -28,18 +28,18 @@ reporting.
 - Publicly Available Lists
     - Confirm that lists do not include extranets or business partners.
     - Note the Time to Live (TTL) assigned to all domains. The TTL should be modified according to the requirement of immediacy. These changes will need to propagate to all other DNS servers in the organization's configuration to take effect.
-    - Remove duplicate domains and subdomains of any top-level domains from list.
+    - Remove duplicate domains and subdomains of any top-level domains from the list.
 - Custom Lists
     - Each time a host is observed connecting to a domain associated with adversarial activity, an entry should be made to prevent other hosts from interacting with said domain.
 - Restart DNS Service
     - Point /etc/resolve.conf to DNS server IP.
-    - Test using digg and nslookup to ensure domains are either blocked or resolving properly.
+    - Test using dig and nslookup to ensure domains are either blocked or resolving properly.
     - Capture log to find infected hosts.
 
 ## Risks
 
 - This countermeasure may not stop all ongoing activity.
-    - Malware may evade sinkholing by hard-coding IP addresses, and using them for C2.
+    - Malware may evade sinkholing by hard-coding IP addresses and using them for C2.
     - A newly-sinkholed domain may continue to resolve until the domain record's Time to Live (TTL) expires.
 - This countermeasure may block legitimate activity.
     - Valid domains may be accidentally sinkholed.

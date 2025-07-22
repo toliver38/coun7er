@@ -34,12 +34,12 @@ Under normal conditions, all five FSMO roles must be assigned to a domain contro
 
 - Configure a separate domain controller as a stand-by operations master for forest roles.
 - Configure a separate domain controller as a stand-by operations master for domain roles. 
-- Place domain-level roles on a high performace domain controller.
+- Place domain-level roles on a high performance domain controller.
 - Place forest-level roles on a domain controller in the root of the forest. 
 
 Roles can be transferred via the Ntdsutil.exe or Microsoft Management Console (MMC) snap-ins. Ensure the machine has AD RSAT tool installed or is a domain controller in the forest where roles are being transferred. 
 
-In some situations roles have to be seized instead of being transfered, for example if the domain controller possessing the role is no longer operational or gets demoted.
+In some situations roles have to be seized instead of being transferred, for example if the domain controller possessing the role is no longer operational or gets demoted.
 
 ### Transferring or Seizing Roles via Ntdsutil
 
@@ -52,7 +52,7 @@ In some situations roles have to be seized instead of being transfered, for exam
 ### Monitoring for FSMO role enumeration techniques
 
 - Monitor for the `netdom query fsmo` command.
-- Monitor for the `Get-ADForest <domain-name> | Format-Table SchemaMaster,DomainNamingMaster` and `Get-ADDomain <domain-name> | format-table ` cmdlets or commandlines. 
+- Monitor for the `Get-ADForest <domain-name> | Format-Table SchemaMaster,DomainNamingMaster` and `Get-ADDomain <domain-name> | format-table ` cmdlets or command lines. 
 
 ## Associated Techniques
 

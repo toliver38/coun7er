@@ -19,7 +19,7 @@ An adversary that compromises either the AD FS service account or an account wit
 
 ## Preparation
 
-- Document the the on-premises and cloud Token Signing Certificate thumbprint and expiration dates. This can be accomplished after connecting to the Microsoft Online Service with `Connect-MsolService` and running `Get-MsolFederationProperty -DomainName <domain>` or by using AD FS Management under Service > Certificates.
+- Document the on-premises and cloud Token Signing Certificate thumbprint and expiration dates. This can be accomplished after connecting to the Microsoft Online Service with `Connect-MsolService` and running `Get-MsolFederationProperty -DomainName <domain>` or by using AD FS Management under Service > Certificates.
 - Determine whether  `AutoCertificateRollover` is set to `True` before generating a new self-signed certificate. This can be done using the PowerShell command `Get-AdfsProperties | FL AutoCert*, Certificate*` If `AutoCertificateRollover` is set to false, a new certificate will have to be generated manually.
 - Consult Microsoft's Emergency rotation of the AD FS certificates from Microsoft Entra documentation before proceeding with rotation of the AD FS certificates. Available at <https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/how-to-connect-emergency-ad-fs-certificate-rotation#remove-your-old-certificates>
 
@@ -52,7 +52,7 @@ To verify that a new token certificates are generated, the following PowerShell 
 
 #### Manually Generate New AD FS Certificate
 
-AD FS servers where `AutoCertificateRollover` is set to `false` must aquire two new certificates from their certificate authority and import them into the local machine personal certificate store on each federation server. Certificates must be obtained from trusted sources. Backup certificates stored on the local AD FS servers should not be used.
+AD FS servers where `AutoCertificateRollover` is set to `false` must acquire two new certificates from their certificate authority and import them into the local machine personal certificate store on each federation server. Certificates must be obtained from trusted sources. Backup certificates stored on the local AD FS servers should not be used.
 
 Configuring a new primary and secondary certificates can be accomplished with the AD FS management console. 
 

@@ -17,7 +17,7 @@ Adversaries frequently take advantage of stolen credentials to abuse privileged 
 
 ## Preparation
 
-A smart card solution for organization is required including a public key infrastructure, smart cards, and smart card readers. Building and implementating a new smart card solution during remdiation for this countermeasure is not recommended.
+A smart card solution for organization is required including a public key infrastructure, smart cards, and smart card readers. Building and implementing a new smart card solution during remediation for this countermeasure is not recommended.
 
 Determine if the time and resources for the preparation of the this countermeasure are an efficient approach.
 
@@ -25,13 +25,13 @@ Distribution of smart cards and smart card readers to those who need to access t
 
 ## Risks
 
-This countermeasure could result in loss of access to privleged user accounts by Administrators if incorrectly configured.
+This countermeasure could result in loss of access to privileged user accounts by Administrators if incorrectly configured.
 
 ## Guidance
 
 ### Enable Interactive logon: Require smart card via group policy
 
-The setting “Interactive logon: require smart card” (or "Interactive logon: Require Windows Hello for Business or smart card" for windows 10 or newer) refers to a Group policy option that requires users to sign in via a smart card or Windows Hello for Business Method. By default, the policy value that controls this is located in 'Computer Configuration>Windows Settings>Security Settings> Local Policies>Security Options'. Enable this policy for the Domain Admins security group to require privileged users specifically. It is recommended that implentation should be gradually tested and monitored to ensure it is configured correctly and effectively.
+The setting “Interactive logon: require smart card” (or "Interactive logon: Require Windows Hello for Business or smart card" for windows 10 or newer) refers to a Group policy option that requires users to sign in via a smart card or Windows Hello for Business Method. By default, the policy value that controls this is located in 'Computer Configuration>Windows Settings>Security Settings> Local Policies>Security Options'. Enable this policy for the Domain Admins security group to require privileged users specifically. It is recommended that implementation should be gradually tested and monitored to ensure it is configured correctly and effectively.
 
 ### Enabling manually
 

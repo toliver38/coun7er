@@ -39,11 +39,11 @@ Adversaries can abuse the global catalog for domain enumeration, aiding in their
 
 - Monitor process calls to BloodHound.
 	- The SharpHound component looks like SMB scanning techniques over ports 137 and 445; keep an eye on all instances of SMB scans. This may cause a lot of noise in larger organizations. 
-	- Monitor commands including `-collectionMethod`,  `invoke-bloodhound`, `azurehound` or `get-bloodHounddata` in the commandline. 
+	- Monitor commands including `-collectionMethod`,  `invoke-bloodhound`, `azurehound` or `get-bloodHounddata` in the command line. 
 - Monitor use of other Active Directory discovery and enumeration tools such as AD Hunt, PowerView, or Adalanche.
-	- Events with ID 4799 may show ennumeration attempts on local group membership. 
+	- Events with ID 4799 may show enumeration attempts on local group membership. 
     - Monitor for process creation of processes with names containing `adhunt.py` or `adalanche`.
-    - Monitor for commandlines containing PowerView modules, a detailed list of which is provided at <https://powersploit.readthedocs.io/en/latest/Recon/>. 
+    - Monitor for command lines containing PowerView modules, a detailed list of which is provided at <https://powersploit.readthedocs.io/en/latest/Recon/>. 
 - Check for event ID 5156(S), or the Windows Filtering Platform allowing a connection. Check if the origins of the connection are from the system directory or other expected location. This may be very noisy and cause many false positives. 
 
 ## Associated Techniques

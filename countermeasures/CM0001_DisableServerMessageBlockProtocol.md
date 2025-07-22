@@ -61,7 +61,7 @@ Create a new Group Policy Object (GPO) named "Disable Administrative and Hidden 
 - Computer Configuration \> Policies \> Administrative Templates \> MSS(Legacy) \> MSS(AutoShareServer)
 - Computer Configuration \> Policies \> Administrative Templates \> MSS(Legacy) \> MSS(AutoShareWks)
 
-After establishing this GPO, link it to the appropriate Organizational Unit and apply the the update to all relevant machines.
+After establishing this GPO, link it to the appropriate Organizational Unit and apply the update to all relevant machines.
 
 ### Secure Accounts with Access to Hidden and Admin Shares
 

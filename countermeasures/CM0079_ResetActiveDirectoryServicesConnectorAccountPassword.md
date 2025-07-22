@@ -15,9 +15,9 @@ Resetting the Active Directory Services (AD DS) Connector account password elimi
 
 Entra Connect (formerly Azure AD Connect) is used to synchronize identity information, enabling users to be signed into both the organization's on-premises and cloud infrastructure. Entra Connect consists of three accounts:
 
-* **AD DS Connector account:** Also referred to as the AD Connector, this account is used to read and write information to the on-premises Windows Server AD by using Active Directory Domain Services (AD DS). This acccount is a Microsoft Online Services (MSOL) account with a name starting with MSOL_ followed by a hex code (e.g. MSOL_4f374eb2b150). While it requires a complex password, by default its passwords are not set to expire. 
+* **AD DS Connector account:** Also referred to as the AD Connector, this account is used to read and write information to the on-premises Windows Server AD by using Active Directory Domain Services (AD DS). This account is a Microsoft Online Services (MSOL) account with a name starting with MSOL_ followed by a hex code (e.g. MSOL_4f374eb2b150). While it requires a complex password, by default its passwords are not set to expire. 
 * **ADSync service account** (also called the sync engine): the main component of Entra Connect, this account is used to run the sync service and access the SQL Server database that stores Azure AD Connect's information and settings. It's default name is NT SERVICE\ADSync.
-* **Microsoft Entra Connector account:** Formerly known as the AAD Connector Acccount, this acccount is used to write information to the Microsoft Entra ID (formerly Azure Active Directory or AAD) tenant of the organization's Microsoft 365 subscription. It is named Sync_[hostname of on-prem Entra Connect server]_[ID].
+* **Microsoft Entra Connector account:** Formerly known as the AAD Connector Account, this account is used to write information to the Microsoft Entra ID (formerly Azure Active Directory or AAD) tenant of the organization's Microsoft 365 subscription. It is named Sync_[hostname of on-prem Entra Connect server]_[ID].
 
 Entra Connect's AD DS Connector account possesses permissions that enable DCSync. 
 * Replicating Directory Changes

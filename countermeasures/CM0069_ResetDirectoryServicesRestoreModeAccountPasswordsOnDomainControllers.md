@@ -18,7 +18,7 @@ The DSRM account is a local administrator account in Windows Server operating sy
 ## Preparation
 
 - Verify Windows server version supports `ntdsutil`. Older server versions (e.g., Windows 2000) may require the command `SETPWD`.
-- Confirm HKLM\System\CurrentControlSet\Control\Lsa\DsrmAdminLogonBehavior is *not* set to 2. If DSRM is set to 2, the adversary likely modified its value to gain domain persistance. Administrators should change the registry key's default value to 0. 
+- Confirm HKLM\System\CurrentControlSet\Control\Lsa\DsrmAdminLogonBehavior is *not* set to 2. If DSRM is set to 2, the adversary likely modified its value to gain domain persistence. Administrators should change the registry key's default value to 0. 
 
 
 ## Risks

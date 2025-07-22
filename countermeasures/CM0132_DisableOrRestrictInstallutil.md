@@ -13,7 +13,7 @@ Disabling or restricting InstallUtil prevents an adversary's attempts at defense
 
 ## Introduction
 
-InstallUtil is a commandline tool that allows administrators to install or uninstall server resources via installer components of various assemblies. The tool is automatically installed with Visual Studio, but can be used independently from the commandline. 
+InstallUtil is a command line tool that allows administrators to install or uninstall server resources via installer components of various assemblies. The tool is automatically installed with Visual Studio, but can be used independently from the command line. 
 
 Adversaries can use the utility to bypass application control and evade defenses: since InstallUtil is a Microsoft-signed binary, it can be used to install executables that would otherwise get blocked by Applocker policies. The Metasploit framework also has specific modules for Applocker bypass by abusing the InstallUtil binary.
 

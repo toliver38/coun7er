@@ -30,7 +30,7 @@ A security update is a patch or modification to software or systems released by 
 - Installing a critical security update may affect the functionality of the product or service.
 - Patching a vulnerability by applying an update alone is insufficient to fully remediate an incident, as a threat actor may have already established persistence in the environment or gained access to sensitive information or credentials that may be used to facilitate follow-on actions.
 - Emergency software updates may inadvertently align with the adversary's goals if the software's supply chain is compromised. In this is the case, organization's should be prepared to roll back said patch to a secure baseline. 
-- Inability to update certain codebases like Java due to backwards compatability issues.
+- Inability to update certain codebases like Java due to backwards compatibility issues.
 
 ## Guidance
 

@@ -31,13 +31,13 @@ Adversaries may edit or change audit policies so that their actions on the syste
 - More audit logs increases the strain on analysts. Continuously monitor and refine audit policies to ensure maximum efficiency. 
 - When advanced audit policy settings are enabled via Group Policy, current or default audit policy settings are cleared. Ensure that all necessary events are still logged and audited after making changes to the policy. 
 - Using both basic and advanced policies may cause unexpected results in reporting (advanced policies may override all basic policies). Ensure that only one of the above is enabled. 
-- If using advanced policies, Microsoft recommends enabling the `Audit: Force audit policy subcategory settings (Windows Vista or later) to override audit policy category settings` setting to ensure policies are not overriden.
+- If using advanced policies, Microsoft recommends enabling the `Audit: Force audit policy subcategory settings (Windows Vista or later) to override audit policy category settings` setting to ensure policies are not overridden.
 
 ## Guidance
 
 ### Audit and Configure Audit Policies
 
-Events that get logged by Windows Audit Policies include logons, account management actions, directory service access, object access, policy changes, privilege use, process tracting, and system events. 
+Events that get logged by Windows Audit Policies include logons, account management actions, directory service access, object access, policy changes, privilege use, process tracking, and system events. 
 
 - In Group Policy Management Console, enable either basic audit policies under `Local Policies > Audit Policy` or advanced policies under `Security Settings > Advanced Audit Policy Configuration`. Using both may cause unexpected results in reporting (advanced policies may override all basic policies). 
 - If using advanced policies, enable the `Audit: Force audit policy subcategory settings (Windows Vista or later) to override audit policy category settings` setting.
@@ -46,10 +46,10 @@ Events that get logged by Windows Audit Policies include logons, account managem
 - Ensure that audit policies at least meet Microsoft's baseline recommendations for event logging, found at <https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/audit-policy-recommendations>. 
 - Ensure audit policies are enabled on all machines.
 - Check that all monitored events have all (or most) of the following attributes to minimize false positives:
-	- High liklihood that occurence means unauthorized or malicious activity.
+	- High likelihood that occurrence means unauthorized or malicious activity.
 	- Low number of false positives.
-	- Event's occurence results in an investigation. 
-	- A single occurence of the even indicates unauthorized activity OR an accumulation of events above an expected baseline. 
+	- Event's occurrence results in an investigation. 
+	- A single occurrence of the even indicates unauthorized activity OR an accumulation of events above an expected baseline. 
 - Ensure that antivirus disabling or removal is logged.
 - Ensure that privileged account actions are logged. 
 

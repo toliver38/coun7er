@@ -42,7 +42,7 @@ Adversaries can use MSBuild to load fileless malware onto systems and evade dete
 
 ### Monitoring MSBuild
 
-- Monitor all calls to `MSBuild.exe` via commandline or PowerShell. The `Get-WinEvent` cmdlet can be leveraged to query the Windows Event Log for events related to the execution of MSBuild.exe.
+- Monitor all calls to `MSBuild.exe` via command line or PowerShell. The `Get-WinEvent` cmdlet can be leveraged to query the Windows Event Log for events related to the execution of MSBuild.exe.
 - Monitor for .NET utility `dotnet build` which is a wrapper for MSBuild.  
 
 If disabling is feasible, then MSBuild can be removed from the system or disabled via Applocker or Windows Defender Application Control (WDAC). Microsoft recommends this approach. 

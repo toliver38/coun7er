@@ -60,7 +60,7 @@ In order to evade detection by modern network monitoring solutions, adversaries 
 ### Disable Ports in Linux/Unix Systems
 
 - In Linux/Unix Operating systems, port management is commonly performed using firewall services such as 'UFW' or 'iptables' in order to block incoming connections to a specific port number:
-    1. Identify the serice currently running on a port using commands such as `netstat -tulpn,` `ss -tln,` `ss -uln,` and `lsof -i -P -n`.
+    1. Identify the service currently running on a port using commands such as `netstat -tulpn,` `ss -tln,` `ss -uln,` and `lsof -i -P -n`.
     2. Once a port number and its corresponding service is identified, the UFW (Uncomplicated Firewall) service can be utilized to supply a command `sudo ufw deny <port_number>` to block the port.
         - Ex: Executing `sudo ufw deny 80` will block all incoming traffic to port 80, which is commonly associated with the HTTP service.
     3. In an instance where a service is actively using a port as opposed to listening, the service can be stopped using `sudo systemctl stop <service_name>` to consequently close the port the service was running on.

@@ -39,7 +39,7 @@ Microsoft provides templates in the following categories:
 - Protect Administrator
 - Emerging Threats
 
-Some policies may require additional licences. 
+Some policies may require additional licenses. 
 
 Navigate to the templates in the Microsoft Entra admin center under `Protection > Conditional Access > Create new policy from templates`.
 - Select the appropriate policies and templates. 

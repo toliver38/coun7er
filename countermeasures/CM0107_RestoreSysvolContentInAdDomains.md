@@ -99,7 +99,7 @@ Active directory environments are a prime target for organized threat groups. Wh
  5. Select **msDFSR-Options**, select **Edit**, type **1**, and select **OK**.
  6. Select **OK** to close the Attribute Editor.
 
-- In order to verify if the authoritative restore was successful, use powershell to execute the `Restart-Service DFSR -PassThru` command.
+- In order to verify if the authoritative restore was successful, use PowerShell to execute the `Restart-Service DFSR -PassThru` command.
 - Verify the presence of Event ID 4602 within Windows Event Logs:
 	  `Get-WinEvent -LogName 'DFS Replication' | Where-Object ID -EQ 4602 | Format-Table -AutoSize -Wrap`
 

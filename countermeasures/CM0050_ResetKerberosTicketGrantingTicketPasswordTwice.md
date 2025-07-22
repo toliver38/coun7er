@@ -9,7 +9,7 @@
 
 ## Intended Outcome
 
-Reseting the Kerberos Ticket Granting Ticket (KRBTGT) password twice will terminate adversary credential access via Golden Ticket attacks.
+Resetting the Kerberos Ticket Granting Ticket (KRBTGT) password twice will terminate adversary credential access via Golden Ticket attacks.
 
 ## Introduction
 

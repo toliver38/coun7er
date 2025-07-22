@@ -25,7 +25,7 @@ Domain-based Message Authentication, Reporting, and Conformance (DMARC) is an em
 
 - Deploy and configure an email gateway. 
 - Compile an up-to-date list of suitable or unsuitable file types that you wish the email gateway to either block or allow. 
-- Ensure that the appropriate allowlist/denylist that best suits the organization’s business needs and security requirements is/are configured and up to date.
+- Ensure that the appropriate allowlist/denylist that best suits the organization’s business needs and security requirements are configured and up to date.
 - Ensure that email file attachment hashes are being compared to a reliable and reputable database of known malicious hashes and that any files with a matching hash from the database are blocked. This can be performed either via the email gateway, or a third-party solution that is properly integrated with the email gateway. However, security teams should understand that just because a file’s hash doesn’t match a previously identified signature, this does not mean the file is verified to be safe as packing and obfuscating malicious files is comparatively easy for threat actors.
 
 ## Risks 

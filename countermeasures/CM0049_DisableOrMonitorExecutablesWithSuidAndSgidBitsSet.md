@@ -13,7 +13,7 @@ Disabling or monitoring executables with SUID and SGID bits set prevents or dete
 
 ## Introduction
 
-Set User ID (SUID) and Set Group ID (SGID) enables an executable on linux to run with the permissions of the owner. 
+Set User ID (SUID) and Set Group ID (SGID) enables an executable on Linux to run with the permissions of the owner. 
 
 ## Preparation
 

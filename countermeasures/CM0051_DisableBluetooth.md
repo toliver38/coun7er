@@ -54,6 +54,6 @@ Disabling Bluetooth could break some applications or devices that require Blueto
 ## References
 
 -   Turn Bluetooth off in Windows | <https://support.microsoft.com/en-us/windows/turn-bluetooth-on-or-off-in-windows-9e92fddd-4e12-e32b-9132-5e36bdb2f75a>
--   Additiontal Ways to Turn Bluetooth off in Windows | <https://www.makeuseof.com/turn-off-bluetooth-on-windows-10/>
+-   Additional Ways to Turn Bluetooth off in Windows | <https://www.makeuseof.com/turn-off-bluetooth-on-windows-10/>
 -   Windows Bluetooth Features | <https://learn.microsoft.com/en-us/windows-hardware/design/component-guidelines/bluetooth>
 -   Create configuration items for Windows devices | <https://learn.microsoft.com/en-us/mem/configmgr/mdm/deploy-use/create-configuration-items-for-windows-8.1-and-windows-10-devices-managed-without-the-client>

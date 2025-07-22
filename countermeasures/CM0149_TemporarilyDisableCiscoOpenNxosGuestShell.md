@@ -28,7 +28,7 @@ Adversaries have abused the NX-OS guest shell to achieve initial access and pers
 
 ## Risks
 
-- Guest shell can be used to build applications, automate tasks, troubleshoot, and conduct logging and tracing. If the organization is depended on the functionality afforded by the guest shell, restricting it can result in operational disruption. To minimize the likelihood of this risk, consider the extent to which the organization employs the guest shell and identify alternative options for accomplishing the same tasks.
+- Guest shell can be used to build applications, automate tasks, troubleshoot, and conduct logging and tracing. If the organization depends on the functionality afforded by the guest shell, restricting it can result in operational disruption. To minimize the likelihood of this risk, consider the extent to which the organization employs the guest shell and identify alternative options for accomplishing the same tasks.
 
 ## Guidance
 

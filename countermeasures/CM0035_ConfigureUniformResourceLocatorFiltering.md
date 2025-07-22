@@ -15,7 +15,7 @@ Configuring Uniform Resource Locator (URL) filtering restricts adversary initial
 
 Uniform Resource Locator (URL) filtering, also known as web filtering, is used to control access to web pages by permitting or denying access when a user clicks on a link. URL filtering blocks compromised webpages used by adversaries to facilitate phishing attacks and malicious code execution.   
 
-URL filtering operates similarly to Domain Name System (DNS) filtering, although the latter blocks blocks DNS query requests for a domain.
+URL filtering operates similarly to Domain Name System (DNS) filtering, although the latter blocks DNS query requests for a domain.
 
 Note that adversaries are able to generate new URLs, so manually updating URL filtering will not be sufficient for full protection against adversaries phishing attempts and should be paired with other, more sophisticated, methods of web security. 
 

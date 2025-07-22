@@ -13,7 +13,7 @@ Resetting and monitoring the adminCount attribute blocks or prevents an adversar
 
 ## Introduction
 
-The adminCount attribute indicates that an object's access control lists (ACLs) have been changed by the system to a more secure setting since it is (or was) a member of a priviliged or administrative group. On privileged user accounts, this attribute is set to 1. That disables inheritance on that object or account, and sets the security to be governed by the AdminSDHolder object. AdminSDHolder runs the SDProp process every hour to reset permissions to the configured set. If an adversary edits those permissions, they may get reverted back to a compromised state even after attempted remediation.
+The adminCount attribute indicates that an object's access control lists (ACLs) have been changed by the system to a more secure setting since it is (or was) a member of a privileged or administrative group. On privileged user accounts, this attribute is set to 1. That disables inheritance on that object or account, and sets the security to be governed by the AdminSDHolder object. AdminSDHolder runs the SDProp process every hour to reset permissions to the configured set. If an adversary edits those permissions, they may get reverted back to a compromised state even after attempted remediation.
 
 An adversary can modify the value of the adminCount attribute on any account to prevent password resets using default means, making it more difficult to remove their access to that account. They may also modify the attribute for legitimate administrator accounts to prevent system administrators from performing their tasks successfully.    
 
@@ -34,8 +34,8 @@ Find all user accounts with adminCount set to 1 with the following command: `Get
 
 ### Monitor for attempts to reset the adminCount attribute from PowerShell
 
-- Monitor all process commandlines containing `admincount`.
-- Monitor all process commandlines containing `set-aduser`.
+- Monitor all process command lines containing `admincount`.
+- Monitor all process command lines containing `set-aduser`.
 
 ## Associated Techniques
 

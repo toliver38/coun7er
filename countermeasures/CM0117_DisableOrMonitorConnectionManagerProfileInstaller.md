@@ -100,7 +100,7 @@ Deploy WDAC policies:
 ### Monitoring CMSTP
 
 If disabling the service is unfeasible in the environment, monitor any processes that call the executable.
-- Monitor process commandlines containing `cmstp.exe`.
+- Monitor process command lines containing `cmstp.exe`.
 - Monitor changes to directory where cmstp.exe is located, such as renaming or moving files. 
 
 ## Associated Techniques
@@ -124,5 +124,5 @@ If disabling the service is unfeasible in the environment, monitor any processes
 - AppLocker | <https://learn.microsoft.com/en-us/windows/security/application-security/application-control/windows-defender-application-control/applocker/applocker-overview>
 - Application Control for Windows | <https://learn.microsoft.com/en-us/windows/security/application-security/application-control/windows-defender-application-control/design/select-types-of-rules-to-create#windows-defender-application-control-file-rule-levels>
 - Guidance on Creating WDAC Deny Policies | <https://learn.microsoft.com/en-us/windows/security/application-security/application-control/windows-defender-application-control/design/create-wdac-deny-policy#creating-a-deny-policy-tutorial>
-- Delpoying Windows Defender Application Control (WDAC) policies | <https://learn.microsoft.com/en-us/windows/security/application-security/application-control/windows-defender-application-control/deployment/wdac-deployment-guide>
+- Deploying Windows Defender Application Control (WDAC) policies | <https://learn.microsoft.com/en-us/windows/security/application-security/application-control/windows-defender-application-control/deployment/wdac-deployment-guide>
 - How Connection Manager Works | <https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc786431(v=ws.10)>

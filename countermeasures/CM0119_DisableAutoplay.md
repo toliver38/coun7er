@@ -13,7 +13,7 @@ Disabling Autoplay prevents the spread of malware via removable media.
 
 ## Introduction
 
-Windows Autoplay enables files to be executed automatically upon the insertion of removable media into a host. This presents an opportunity for malware to be introduced to, or proliferated on, a network. It is important to note that disabling AutoPlay will prevent the the automatic execution of files from removable media but will not prevent users from manually executing said files.   
+Windows Autoplay enables files to be executed automatically upon the insertion of removable media into a host. This presents an opportunity for malware to be introduced to, or proliferated on, a network. It is important to note that disabling AutoPlay will prevent the automatic execution of files from removable media but will not prevent users from manually executing said files.   
 
 ## Preparation
 

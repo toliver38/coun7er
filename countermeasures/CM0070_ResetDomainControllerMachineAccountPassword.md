@@ -21,7 +21,7 @@ Every Windows-based computer has a machine account (also known as the Active Dir
 
 ## Risks
 
-- Resetting the password for the DC account may risk breaking synchoronization of the DC if done improperly, such as by using the `Reset-ComputerMachinePassword` cmdlet.
+- Resetting the password for the DC account may risk breaking synchronization of the DC if done improperly, such as by using the `Reset-ComputerMachinePassword` cmdlet.
 
 ## Guidance
 
@@ -35,7 +35,7 @@ Every Windows-based computer has a machine account (also known as the Active Dir
 
 4. Reset the domain controller's machine password using the command `netdom resetpwd /s:<server> /ud:<domain\User> /pd:*`. Run this command twice to reset the current password and overwrite the previous password for the account.
 
-Replace `<server>` with the domain controller and `<domain/User>` with a user account on the domain with administrator privileges in the`domain\User format. 
+Replace `<server>` with the domain controller and `<domain/User>` with a user account on the domain with administrator privileges in the `domain\User format. 
 
 System administrators can run `netdom help resetpwd` to verify appropriate syntax. 
 
