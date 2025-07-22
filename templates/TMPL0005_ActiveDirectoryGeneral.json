@@ -1,0 +1,416 @@
+{
+    "id": "TMPL0005",
+    "name": "Active Directory General Remediation",
+    "featured": false,
+    "iconSrc": null,
+    "link": null,
+    "description": "The intended role of this template is to provide additional general guidance for Active Directory recovery. This includes a broad number of countermeasures to be used in addition after the execution of the Active Directory Identity template. This template is also intended to be edited to only include countermeasures that are relevant to your environment and what TTPs an Adversary has carried out within the environment.",
+    "tech_to_items": {
+        "unmapped": {
+            "confidence": "suspected",
+            "items": [
+                {
+                    "id": "CM0135",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0145",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0084",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0018",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0112",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0041",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0124",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0060",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0094",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0118",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0121",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0146",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0076",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0061",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0087",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0050",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0088",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0070",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0092",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0028",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0069",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0126",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0029",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0083",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0073",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0102",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0128",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0089",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0033",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0114",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0105",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0080",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0032",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0099",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0079",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0122",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0123",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0139",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0074",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0040",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0026",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0065",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0063",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0067",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0082",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0071",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0030",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0103",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0059",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0024",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0027",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0085",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0086",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0107",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0133",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0134",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0136",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0147",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0009",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0010",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0011",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0077",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0075",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0004",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0017",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0038",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0101",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0111",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0137",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0141",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0144",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0022",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0023",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0013",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0039",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0019",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0001",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0131",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0012",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0129",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0045",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0003",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0127",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0130",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0058",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0044",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0142",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0072",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0062",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0100",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0052",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0025",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0042",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0031",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0036",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0043",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0095",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0090",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0125",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0096",
+                    "version": "1.0"
+                }
+            ]
+        }
+    },
+    "ignored_items": []
+}

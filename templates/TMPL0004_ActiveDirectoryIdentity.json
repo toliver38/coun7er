@@ -1,0 +1,184 @@
+{
+    "id": "TMPL0004",
+    "name": "Active Directory Identity Remediation",
+    "featured": false,
+    "iconSrc": null,
+    "link": null,
+    "description": "Countermeasures aiding in the recovery of an Active Directory Compromise, specifically for the identity aspect of Active Directory and other highly important countermeasures. This is intended to be edited to more accurately suit your environment and specifically target Threat Actor TTPs relevant to your compromise.",
+    "tech_to_items": {
+        "unmapped": {
+            "confidence": "suspected",
+            "items": [
+                {
+                    "id": "CM0135",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0145",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0084",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0018",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0112",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0041",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0124",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0060",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0094",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0118",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0121",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0146",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0076",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0061",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0087",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0050",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0088",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0070",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0092",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0028",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0069",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0126",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0029",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0083",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0073",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0102",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0128",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0089",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0033",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0114",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0105",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0080",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0032",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0099",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0079",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0122",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0123",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0139",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0074",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0040",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0026",
+                    "version": "1.0"
+                },
+                {
+                    "id": "CM0059",
+                    "version": "1.0"
+                }
+            ]
+        }
+    },
+    "ignored_items": []
+}
