@@ -15,7 +15,7 @@ Disabling privileged on-premises Active Directory (AD) accounts in Entra ID prev
 
 An on-premises domain is managed by the organization, as opposed to a managed domain via Microsoft Entra Domain Services, which is managed by Microsoft. On-premises domains are often integrated with Entra ID for reliability, security, and cost optimization. Due to integration, users on-premises use their same credentials to authenticate with Entra ID and the managed domain. 
 
-Adversaries may use compromised on-premises administrator accoutns to authenticate with Entra ID and exploit resources available in the managed domain.  
+Adversaries may use compromised on-premises administrator accounts to authenticate with Entra ID and exploit resources available in the managed domain.  
 
 ## Preparation
 
@@ -43,7 +43,7 @@ These commands require administrator permissions.
 
 ### Manually disable Entra ID users
 
-Entra ID provides steps both to remove roles from a user account to revoke their administrator privileges, or to delete the account entirely. Defer to the organazation's account de-provisioning procedures. 
+Entra ID provides steps both to remove roles from a user account to revoke their administrator privileges, or to delete the account entirely. Defer to the organization's account de-provisioning procedures. 
 
 - To remove an administrator role:
 	- Open Microsoft Entra admin center, navigate to `Identity > Users > All users`.

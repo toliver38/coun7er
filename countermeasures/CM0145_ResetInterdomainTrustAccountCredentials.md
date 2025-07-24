@@ -30,7 +30,7 @@ No Risks content identified.
 
 ### Reset ITA credentials
 
-- In the commandline interface, use the `netdom experthelp trust` command to get appropriate syntax for the NetDom tool. 
+- In the command line interface, use the `netdom experthelp trust` command to get appropriate syntax for the NetDom tool. 
 - Use provided syntax to reset the password based on domain configuration. Two examples are provided below. 
 	- On parent domain: `netdom trust parent domain name /domain:child domain name /resetOneSide /passwordT:password /userO:administrator /passwordO:*`.
 	- On child domain: `netdom trust child domain name /domain:parent domain name /resetOneSide /passwordT:password /userO:administrator /passwordO:*`. 

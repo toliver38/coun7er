@@ -21,7 +21,7 @@ Windows Management Instrumentation (WMI) is a Microsoft module that is defined a
 
 ## Risks
 
-- Disabling WMI could break microsoft applications that depend on WMI to function. 
+- Disabling WMI could break Microsoft applications that depend on WMI to function. 
 
 ## Guidance
 
@@ -44,7 +44,7 @@ Another approach is to block wmic.exe directly using application control. Window
     * WMI over WinRM uses HTTP port 5985 or HTTPS port 5986. 
 
 
-* Command Logging/History: PowerShell script block logging and transcription logging should be enabled to view attempts at using wmic through powershell. 
+* Command Logging/History: PowerShell script block logging and transcription logging should be enabled to view attempts at using wmic through PowerShell. 
 
 ## Associated Techniques
 

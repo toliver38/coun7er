@@ -15,7 +15,7 @@ Removing malicious domain trusts from the tenant prevents an adversary from achi
 
 A domain trust is a bridge between two separate domains or forests that allows users from the two domains to access shared resources by allowing authentication traffic to flow between them. Trust relationships between domains allow the requested domain to see the requestor as a service, and not validate the user asking for access as vigorously (it trusts the domain that issued the referral). 
 
-Many organizations still maintain trusts established years ago, which opens them up to adversaries who may compromise external trusted domains. Adversaries often leave implants and malicious code in the often less-secure trusted domains for future re-compromise instead of leaving traces in the main target domain. Domain trusts also allow adversaries to move laterally between domains via compromised accounts, escalating their priviliges until they reach their target. 
+Many organizations still maintain trusts established years ago, which opens them up to adversaries who may compromise external trusted domains. Adversaries often leave implants and malicious code in the often less-secure trusted domains for future re-compromise instead of leaving traces in the main target domain. Domain trusts also allow adversaries to move laterally between domains via compromised accounts, escalating their privileges until they reach their target. 
 
 ## Preparation
 
@@ -39,14 +39,14 @@ Many organizations still maintain trusts established years ago, which opens them
 ### Remove Domain Trust from Domain Services
 
 - In the Microsoft Entra admin center, navigate to `Microsoft Entra Domain Services` and select the domain.
-- Select `Trusts`, select the approproate trust to remove, and select `Remove`. A password may be required. 
+- Select `Trusts`, select the appropriate trust to remove, and select `Remove`. A password may be required. 
 
 ### Monitor for Domain Trust Enumeration Techniques
 
 - Process calls to BloodHound or SharpHound.
 - .NET scripts containing `([System.DirectoryServices.ActiveDirectory.Domain]::GetCurrentDomain()).GetAllTrustRelationships()` or `([System.DirectoryServices.ActiveDirectory.Forest]::GetCurrentForest()).GetAllTrustRelationships()`.
 - Win32 API calls containing `DsEnumerateDomainTrusts()`.
-- Process commandlines containing `objectClass=trustedDomain` or `Get-DomainTrust`.
+- Process command lines containing `objectClass=trustedDomain` or `Get-DomainTrust`.
 
 ## Associated Techniques
 

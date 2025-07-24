@@ -30,7 +30,7 @@ DCOM is a technology that enables software component communication and interacti
     - The local COM+ snap-in will not be able to connect to remote servers to enumerate their COM+ catalog.
     - Certificate auto-enrollment may not function correctly.
     - WMI queries against remote servers may not function correctly.
-    - Disabling DCOM by modifying the registry may occur if the registry is modified incorrectly. To limit the damage caused by incorrectly modifying the registry, administrators should modify the registry using the GPO method, and ensure that the registry is backed up prior to attempted modifications.
+    - Disabling DCOM by modifying the registry may occur if the registry is modified incorrectly. To limit the damage caused by incorrectly modifying the registry, administrators should modify the registry using the GPO method and ensure that the registry is backed up prior to attempted modifications.
 
 ## Guidance
 

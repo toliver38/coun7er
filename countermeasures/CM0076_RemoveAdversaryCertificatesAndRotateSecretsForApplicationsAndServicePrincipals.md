@@ -45,7 +45,7 @@ This countermeasure assumes that a suspicious service principal or application o
 
 ### Managing Application and Service Principal Certificates and Rotating Secrets in Microsoft Azure
 
-Service principals can be created, removed, and modified by using a number of different tools, including Microsoft Graph PowerShell, Graph API, Azure PowerShell, the Azure command-line interface (CLI), and the deprecated AzureAD Powershell module.
+Service principals can be created, removed, and modified by using a number of different tools, including Microsoft Graph PowerShell, Graph API, Azure PowerShell, the Azure command-line interface (CLI), and the deprecated AzureAD PowerShell module.
 
 Note that if an application object is modified, the changes will only show in its service principal object in the home tenant (where it was registered).
 

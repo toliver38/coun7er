@@ -25,7 +25,7 @@ Adversaries can abuse the utility to execute code containing an `ms:script` elem
 
 ## Risks
 
-- Logging process commandlines may be logging-intensive. Consider scope and filters for logging and ensure that proper space is alloted to logs. 
+- Logging process command lines may be logging-intensive. Consider scope and filters for logging and ensure that proper space is allotted to logs. 
 - Renaming, changing, or moving MSXSL.exe may evade detection,  Applocker, or WDAC policies. Having several types of rules active simultaneously (e.g. a hash rule and a path rule) can mitigate some risk, since the rules protect against different behaviors. 
 
 ## Guidance
@@ -102,7 +102,7 @@ Deployment can vary depending on the version of Windows a client is running and 
 If MSXSL is commonly used in the environment, examine common precursor or following commands to `msxsl.exe` to create exclusion rules or lower priority alerts for legitimate behavior.
 
 - Monitor all calls to msxsl.exe not containing the `-o` flag.
-- Monitor execution of msxsl.exe where a valid URL or IP address is in the commandline instead of a local file name.
+- Monitor execution of msxsl.exe where a valid URL or IP address is in the command line instead of a local file name.
 
 ## Associated Techniques
 

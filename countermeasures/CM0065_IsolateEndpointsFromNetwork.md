@@ -15,7 +15,7 @@ Isolating an endpoint from the network blocks adversary initial access, lateral 
 
 An endpoint is any physical or virtual device or node on a network which is the ultimate destination of communications encompassing laptops, desktops, workstations, smartphones, servers, IoT devices, virtual machines, and other computing devices linked within an enterprise environment. 
 
-Adversaries that compromise an endpoint can perform a range of techniques to accomplish their objectives. By isolating a compromised endpoint, responders will be able to contain an incident by preventing the threat from issuing C2 commands and/or moving laterally across a network.  Endpoint isolation can further disrupt or otherwise limit additional network-centric activities ranging from discovery, collection, and exfiltration - although automated actions that do not require realtime communication with the adversary may still occur.
+Adversaries that compromise an endpoint can perform a range of techniques to accomplish their objectives. By isolating a compromised endpoint, responders will be able to contain an incident by preventing the threat from issuing C2 commands and/or moving laterally across a network.  Endpoint isolation can further disrupt or otherwise limit additional network-centric activities ranging from discovery, collection, and exfiltration - although automated actions that do not require real-time communication with the adversary may still occur.
   
 
 ## Preparation
@@ -30,7 +30,7 @@ Adversaries that compromise an endpoint can perform a range of techniques to acc
 
 ## Guidance
 
-Software solutions (e.g. CrowdStrike, Defender for Endpoint, SentinalOne, etc.) may be used to quickly segregate endpoints from the rest of the network. Alternatly, teams may configure endpoint solutions to automatically isolate devices via workflows or playbooks under circumstances that warrant immediate containment. 
+Software solutions (e.g. CrowdStrike, Defender for Endpoint, SentinalOne, etc.) may be used to quickly segregate endpoints from the rest of the network. Alternately, teams may configure endpoint solutions to automatically isolate devices via workflows or playbooks under circumstances that warrant immediate containment. 
 
 In some cases, system administrators may want to consider either logically segregating virtual separation or physical disconnection from the network.
 

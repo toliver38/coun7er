@@ -13,7 +13,7 @@ Monitoring or blocking the Microsoft HTML Application (MSHTA) utility detects or
 
 ## Introduction
 
-Mshta.exe is a Windows utility that provides a host for HTA files to run in. Although it has legitimate uses, attackers can use mshta.exe to run malicious Javascript or VBScript commands.
+Mshta.exe is a Windows utility that provides a host for HTA files to run in. Although it has legitimate uses, attackers can use mshta.exe to run malicious JavaScript or VBScript commands.
 
 ## Preparation
 

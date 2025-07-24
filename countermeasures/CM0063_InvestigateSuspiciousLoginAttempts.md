@@ -52,7 +52,7 @@ Another strategy will be to tune EDR, SIEMs, threat hunting tools, etc., to an o
 Responders should review event logs in case of an incident to check for suspicious activity. These logs can be found in C:\Windows\System32\winevt\Logs\ or in event viewer's Window's Security logs and filtering for event IDs 
 * Event ID: 4624 Captures successful logon events and will be an important log to monitor. This log also captures "Logontypes" with types 3, 9, and 10 being most important for suspicious activity. 
     - Logon type 3 refers to users logging in through network shares such as SMB. Adversaries will often use pass-the-hash or a discovered password to get an interactive shell or discover more information using a user's credentials. 
-    - Logontype 9 can be suspicous if a regular user uses the "runas" command to perform actions as another user on the network. 
+    - Logontype 9 can be suspicious if a regular user uses the "runas" command to perform actions as another user on the network. 
     - Logontype 10 captures remote log-in such as WinRM and RDP which is often used by adversaries that have stolen credentials. 
  * Event ID: 4625 Captures failed logon events and will an another important event to monitor. It will be important to pay attention to the status codes which are in hexadecimal format.
      - 0xC000006F describes a user that attempts to log-in outside of work hours. If the machine is configured to reject logon attempts outside of duty hours, this could be an indicator of attack (IoA).

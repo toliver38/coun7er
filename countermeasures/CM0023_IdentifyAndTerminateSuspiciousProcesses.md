@@ -9,15 +9,11 @@
 
 ## Intended Outcome
 
-Identifying and terminating suspicious processes terminates adversary
-execution of malware.
+Identifying and terminating suspicious processes terminates adversary execution of malware.
 
 ## Introduction
 
-Suspicious or anomalous processes include unrecognized process names,
-especially names that imitate a legitimate or benign system processes or
-appear randomly generated. Characteristics os suspicious processes
-include: 
+Suspicious or anomalous processes include unrecognized process names, especially names that imitate a legitimate or benign system processes or appear randomly generated. Characteristics of suspicious processes include: 
 
 - Processes with no icon, version information, description, or company name. 
 - Processes that are unsigned, especially a process with a company name like Microsoft Corporate that is also unsigned. 

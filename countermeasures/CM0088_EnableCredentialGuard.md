@@ -63,7 +63,7 @@ Credential Guard is one of several countermeasures available to prevent credenti
 
 ### Enable Credential Guard with Microsoft Intune
 
-- Alternatly, system administrators can enable Credential Guard via the Microsoft Intune admin center. 
+- Alternately, system administrators can enable Credential Guard via the Microsoft Intune admin center. 
 - Create a profile and add Device Guard from the settings picker. After selecting Device Guard, select Credential Guard from the policy settings.
 
 ## Associated Techniques

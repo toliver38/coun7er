@@ -41,7 +41,7 @@ The PI Web API can be configured both during installation and during runtime. En
 	- None/Anonymous (Aveva recommends against allowing the Anonymous authentication type.)
 - Select the communication port for PI Web API. The default is port 443 for HTTPS traffic; it is largely recommended to use default ports. 
 - If remote clients need to access the service, configure a firewall exception by keeping the `Yes, please create a Firewall Exception for PI Web API` checked. Otherwise uncheck the box. 
-- Select an SSL certificare for the communication port. 
+- Select an SSL certificate for the communication port. 
 - Select the account under which the service will operate. 
 - Select where the service will store Open Message Format (OMF) data; the default value is the currently-connected PI AF server.
 - Review the settings, apply if correct. 

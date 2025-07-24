@@ -9,11 +9,11 @@
 
 ## Intended Outcome
 
-Auditing Windows Task Scheduler prevents adversary attempts at persistence, execution, or priviledge escalation via malicious tasks.
+Auditing Windows Task Scheduler prevents adversary attempts at persistence, execution, or privilege escalation via malicious tasks.
 
 ## Introduction
 
-Windows Task Scheduler is a Microsoft Windows service that allows you to automate tasks by scheduling programs or scripts to run at specifc times and/or intervals. Adversaries leverage this functionality to automate the execution of their own malicious code. This has been used to persist via execution on startup, escalate privilege by running the task under the context of a specific account, to mask code execution under the trusted Windows Task Scheduler process, or to achieve a variety of many other malicious goals an adversary may carry out via task execution. This countermeasure aims to provide guidance on auditing and removing of tasks that have been created or manipulated to fufill adversary objectives.
+Windows Task Scheduler is a Microsoft Windows service that allows you to automate tasks by scheduling programs or scripts to run at specific times and/or intervals. Adversaries leverage this functionality to automate the execution of their own malicious code. This has been used to persist via execution on startup, escalate privilege by running the task under the context of a specific account, to mask code execution under the trusted Windows Task Scheduler process, or to achieve a variety of many other malicious goals an adversary may carry out via task execution. This countermeasure aims to provide guidance on auditing and removing of tasks that have been created or manipulated to fulfill adversary objectives.
 
 ## Preparation
 
@@ -36,7 +36,7 @@ Windows Task Scheduler is a Microsoft Windows service that allows you to automat
 #### Audit Windows Tasks via command line
 
 - The Schtasks command can be used to view, edit, or schedule tasks on windows. Similar to the Task Scheduler application, use this to audit for any abnormal or malicious tasks that may be present.
-- In powershell, the Get-ScheduledTask module can also be used to query Scheduled Tasks
+- In PowerShell, the Get-ScheduledTask module can also be used to query Scheduled Tasks
 
 #### Audit Window Tasks via Autoruns
 
@@ -52,7 +52,7 @@ Windows Task Scheduler is a Microsoft Windows service that allows you to automat
 
 #### Malicious task identification
 
-- Review the output of Task Scheduler and examine each entry for legitmacy and validity .
+- Review the output of Task Scheduler and examine each entry for legitimacy and validity.
 - Analyze the commands, scripts, or applications executed by the tasks. Verify that there are no malicious or unrecognizable instructions within the tasks.
 - Compare the tasks to a valid baseline configuration, look for any that do not belong or that have been modified from what is typical.
 
@@ -65,7 +65,7 @@ Windows Task Scheduler is a Microsoft Windows service that allows you to automat
 
 #### Enabling Logging of Task creation via Group Policy
 
-Many attackers will sometimes have processes re-add Scheduled Tasks as a form of persistance. Windows logging can be enabled to log these task creations in order to stop adversaries. This can be enabled via group policy at 'Computer Configuration -> Windows Settings -> Security Settings -> Object Access -> Audit Other Object Access Events'. This will create event ID 4698 which will include some default traffic as well as malicious task creation.
+Many attackers will sometimes have processes re-add Scheduled Tasks as a form of persistence. Windows logging can be enabled to log these task creations in order to stop adversaries. This can be enabled via group policy at 'Computer Configuration -> Windows Settings -> Security Settings -> Object Access -> Audit Other Object Access Events'. This will create event ID 4698 which will include some default traffic as well as malicious task creation.
 
 ## Associated Techniques
 
@@ -85,6 +85,6 @@ Many attackers will sometimes have processes re-add Scheduled Tasks as a form of
 -   Task Scheduler Microsoft Docs | <https://learn.microsoft.com/en-us/windows/win32/taskschd/task-scheduler-start-page>
 -   Schtasks Microsoft Docs | <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/schtasks>
 -   Sysinternals Autoruns | <https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns>
--   Using ScheduledTasks Module to audit tasks in powershell | <https://mcpmag.com/Articles/2017/04/27/ScheduledTasks-Module-to-Audit-Tasks-in-PowerShell.aspx?>
+-   Using ScheduledTasks Module to audit tasks in PowerShell | <https://mcpmag.com/Articles/2017/04/27/ScheduledTasks-Module-to-Audit-Tasks-in-PowerShell.aspx?>
 -   Diving into hidden scheduled tasks | <https://www.binarydefense.com/resources/blog/diving-into-hidden-scheduled-tasks/#:~:text=In%20the%20Microsoft%20post%20one%20of%20the%20pieces,tasks%20which%20do%20not%20have%20a%20SD%20value.>
 -   Windows task auditing/logging | <https://www.csoonline.com/article/567041/how-to-audit-windows-task-scheduler-for-cyber-attack-activity.html>

@@ -9,13 +9,13 @@
 
 ## Intended Outcome
 
-Removing malicious applications and service account principals blocks an adversary's persistance via applications and service principals in the environment. 
+Removing malicious applications and service account principals blocks an adversary's persistence via applications and service principals in the environment. 
 
 ## Introduction
 
 Adversaries may compromise legitimate enterprise applications with malicious code using hooks, payload injections, and other tactics to maintain persistence and evade defenses. Service principals are the identities of applications as stored in Entra ID, determining the resources an application is allowed to access. Compromised service principals lead to incorrect access controls and permissions. 
 
-Malicious Azure applications are a newer attack vector for adversaries since they are difficult to block and detect in an environment. Adversaries create a custom Azure application to use in a phishing attack, then use the Azure APIs to integrate with a victim's Microsoft 365 environment, obtain persistance, remotely execute code, or perform discovery on the organization. These applications do not require permission from Microsoft, come with valid Microsoft certificates, and they do not require code execution on endpoint devices, making detection via antivirus (AV) solutions or endpoint detection and response (EDR) difficult. 
+Malicious Azure applications are a newer attack vector for adversaries since they are difficult to block and detect in an environment. Adversaries create a custom Azure application to use in a phishing attack, then use the Azure APIs to integrate with a victim's Microsoft 365 environment, obtain persistence, remotely execute code, or perform discovery on the organization. These applications do not require permission from Microsoft, come with valid Microsoft certificates, and they do not require code execution on endpoint devices, making detection via antivirus (AV) solutions or endpoint detection and response (EDR) difficult. 
 
 While a user is informed that an application is not published by Microsoft or their organization when they are prompted for authorization and permissions, this may be overlooked. Upon gaining access, attackers can access files, read and send emails, modify the calendar, and see all other users in the organization via user directories. 
 
@@ -25,7 +25,7 @@ While a user is informed that an application is not published by Microsoft or th
 - Identify the impact removing the applications or service account principles will have on business operations.
 - Identify if privileged or administrator credentials are compromised due to the malicious application and coordinate credential resets or other eviction techniques to eliminate all adversary access to/through the application.
 - Determine the ID of the application(s) to be removed.
-- Locate accounts using service principals and identify which ones are legitimate. Both Azure commandline interface (CLI) and PowerShell have commands to discover service principaled accounts. 
+- Locate accounts using service principals and identify which ones are legitimate. Both Azure command line interface (CLI) and PowerShell have commands to discover service principled accounts. 
 
 ## Risks
 
@@ -42,7 +42,7 @@ Authentication of the application is handled by Microsoft and users log in with 
 - Via the Azure portal, delete applications in the `Enterprise Applications` section under the `Azure Active Directory` tab.
 - Via the Graph API, soft delete the application (recoverable for 30 days) using `DELETE /applications{id}`.
 	- If you do not permanently delete the application, set up monitoring or logging to be alerted if the application state changes, such as being reenabled or recovered. 
-- Permanenetly delete the application using `DELETE /directory/deletedItems/{id}`.
+- Permanently delete the application using `DELETE /directory/deletedItems/{id}`.
 
 ### Remediate service principals
 

@@ -15,7 +15,7 @@ Rebuilding group managed service accounts (gMSA) prevents an adversary's attempt
 
 Group Managed Service Accounts (gMSA) are accounts used by services and often require elevated privileges in an environment. They are managed by the Active Directory (AD) itself, rather than by users. Passwords for gMSA are randomly generated every 30 days (by default; may be configured) by the key distribution service (KDS) from a set root key within the AD.
 
-Adversaries can compromise managed accounts with pass-the-hash attacks or other exploits targetting the Lightweight Directory Access Protocol (LDAP) and use gMSA permissions to perform privileged actions. Resetting the password on the account is not always an effective mitigation, as attackers can launch a "Golden gMSA Attack" and calculate future as well as current gMSA passwords, as long as they have seen the root key once. To prevent this, rebuilding the accounts completely and generating a new root key is recommended.      
+Adversaries can compromise managed accounts with pass-the-hash attacks or other exploits targeting the Lightweight Directory Access Protocol (LDAP) and use gMSA permissions to perform privileged actions. Resetting the password on the account is not always an effective mitigation, as attackers can launch a "Golden gMSA Attack" and calculate future as well as current gMSA passwords, as long as they have seen the root key once. To prevent this, rebuilding the accounts completely and generating a new root key is recommended.      
 
 ## Preparation
 

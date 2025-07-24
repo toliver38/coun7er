@@ -58,7 +58,7 @@ AD Connect can be installed two ways: express, or custom. Express installation c
 #### Custom Install
 
 - On the Express Settings page, select `Customize`.
-- Entra Connect will automatically install synchronization services and assign approproate groups and permissions, but allows for customization of installation location, using an existing SQL server, using an existing service account, specifying sync groups, or importing synchronization settings. These checkboxes may remain empty if the default values are sufficent. 
+- Entra Connect will automatically install synchronization services and assign appropriate groups and permissions, but allows for customization of installation location, using an existing SQL server, using an existing service account, specifying sync groups, or importing synchronization settings. These checkboxes may remain empty if the default values are sufficient. 
 - Click `Install`. 
 - Select the user sign-in method the organization plans on using. 
 - Connect to Microsoft Entra ID with Hybrid Identity Administrator credentials when prompted. 

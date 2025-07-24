@@ -47,7 +47,7 @@ To gain insight into attempts at binary masquerading, consider collecting proces
 - Explore the feasibility of removing the Mavinject.exe binary.
 - Scanning for filenames and hashes associated with Mavinject.exe and auditing command line/PowerShell logs can be useful for detecting Mavinject.exe. 
 - EDR rules can be used to detect and prevent the execution of Mavinject.exe where contextually relevant.
-- Mavinject.exe execution can be blocked by leveraging commercial or opensource tools that are designed to block programs from executing (e.g., Windows Defender Application Blocking, CrowdStrike).
+- Mavinject.exe execution can be blocked by leveraging commercial or open-source tools that are designed to block programs from executing (e.g., Windows Defender Application Blocking, CrowdStrike).
 
 ## Associated Techniques
 

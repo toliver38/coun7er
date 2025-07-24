@@ -36,7 +36,7 @@ enable persistence.
 
 - Determine whether Smart Install is Enabled
 - Investigate Evidence of Smart Install Abuse
-    - Analyze traffic and device logs to determine whether unauthorized changes were made to startup-config, Cisco IOS, or the tfcp-server. 
+    - Analyze traffic and device logs to determine whether unauthorized changes were made to startup-config, Cisco IOS, or the tftp-server. 
     - Organizations should preserve a copy of the tampered configuration file or any additional evidence of abuse during the incident response investigation.
 - Isolate and Restore Affected Device(s)
     - If network administrators determine a network device was abused, they should isolate the affected device from the network.

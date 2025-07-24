@@ -37,13 +37,13 @@ If PsExec is not necessary in the environment, disable and remove it. Otherwise,
 	- In Microsoft Defender Security Portal, navigate to `Device Control > Attack Surface Reduction`. 
 	- Select `Edit` and navigate to the `Block process creations originating from PSExec and WMI commands` rule.
 	- Enable the rule. Save and exit. 
-- Restrict access to only specific users that may need PsExec for their roles, if other otions (such as PowerShell Remoting) are unavailable. 
+- Restrict access to only specific users that may need PsExec for their roles, if other options (such as PowerShell Remoting) are unavailable. 
 - Edit firewall rules to block PsExec to and from remote devices. 
 
 ### Monitor for PsExec
 
 - Check any anti-virus alerts regarding PsTools and PsExec in particular.
-- Monitor all calls to `psexec` from the commandline. 
+- Monitor all calls to `psexec` from the command line. 
 - Monitor named pipes such as `\\.\pipe\psexesvc` or similar. Other lateral movement tools such as MetaSploit also use named pipes, but so do legitimate services. 
 - Monitor for binaries with internal names `PsExec` and `PsExec Service Host`. 
 - If PsExec is not typically used in the environment, the registry key at `HKEY_CURRENT_USER\software\sysinternals\psexec\eulaaccepted` can indicate if it was run recently. In environments where PsExec is used legitimately, this may not be helpful. 

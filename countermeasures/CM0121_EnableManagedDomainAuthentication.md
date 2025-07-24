@@ -17,7 +17,7 @@ Microsoft provides managed domains via Entra Domain Services, providing services
 
 Domain Services does not store credentials in plaintext or hashes in a format compatible with authentication protocols like Kerberos or NT LAN Manager (NTLM) by default. For users to authenticate using their existing credentials, Domain Services need to be enabled with the tenant.
 
-Attackers can abuse legacy applications that don't support modern authentication methods to gain access to resources or user accounts. Self-managed domains may also be misconfigured or resources may not be properly managed, allowing attackers to gain access and potentially escalate their priviliges.  
+Attackers can abuse legacy applications that don't support modern authentication methods to gain access to resources or user accounts. Self-managed domains may also be misconfigured or resources may not be properly managed, allowing attackers to gain access and potentially escalate their privileges.  
 
 
 ## Preparation

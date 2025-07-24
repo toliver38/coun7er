@@ -34,8 +34,8 @@ System administrators should follow Microsoft's documentation and use Azure AD P
 
 1. Sign into the Entra Connect server with domain administrator account (note that if the domain administrator is a member of the Protected Users group, this operation will fail.)
 2. Import the PowerShell module `AzureADSSO.psd1`
-3. Run PowrShell as administrator and call `New-AzureADSSOAuthenticationContext` to sign in with Global administrator or Hybrid administrator credentials
-4. Call `Get-AzureADSSOStatus | ConvertFrom-Json` to retreive a list of AD forests where AD seamless SSO is enabled.
+3. Run PowerShell as administrator and call `New-AzureADSSOAuthenticationContext` to sign in with Global administrator or Hybrid administrator credentials
+4. Call `Get-AzureADSSOStatus | ConvertFrom-Json` to retrieve a list of AD forests where AD seamless SSO is enabled.
 5. Call `Update-AzureADSSOForest`.
 6. Call `$Cred = Get-Credential` 
 7. Call `Update-AzureADSSOForest -OnPremCredentials $creds` to update the Kerberos decryption key for AZUREADSSO in an AD forest and Entra ID. 

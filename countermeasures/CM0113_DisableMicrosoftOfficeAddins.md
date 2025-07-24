@@ -19,7 +19,7 @@ Adversaries can use malicious add-ins to inject code payloads into Office docume
 
 - Identify what Office Add-ins (if any) are necessary to business operations.
 - Consider enabling Attack Surface Reduction (ASR) rules blocking Office Add-ins from creating child processes: 
-	- Navigate to `Computer Configuration > Policies > Administative Templates > Windows Components > Microsoft Defender Antivirus > Microsoft Defender Exploit Guard > Attack Surface Reduction`
+	- Navigate to `Computer Configuration > Policies > Administrative Templates > Windows Components > Microsoft Defender Antivirus > Microsoft Defender Exploit Guard > Attack Surface Reduction`
     - Set `Configure Attack Surface Reduction Rules` to Enabled and set the `D4F940AB-401B-4EFC-AADC-AD5F3C50688A` key to value 1. There are other ASR rules for Office applications, including blocking API calls by macros or blocking executable content that can also be enabled.
 
 ## Risks

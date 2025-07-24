@@ -24,7 +24,7 @@ Adversaries may use pass-the-hash or ticket attacks to grab hashes and continue 
 
 ## Risks
 
-- Lockout of local adminstrative accounts is likely if proper documentation of password resets is not conducted or policy is not followed. 
+- Lockout of local administrative accounts is likely if proper documentation of password resets is not conducted or policy is not followed. 
 
 ## Guidance
 
